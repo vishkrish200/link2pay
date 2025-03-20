@@ -1,0 +1,34 @@
+### Test Server Running
+GET http://localhost:3000
+
+### Create a new payment link
+POST http://localhost:3000/api/payments
+Content-Type: application/json
+
+{
+  "walletAddress": "0x1234567890abcdef1234567890abcdef12345678",
+  "blockchain": "ethereum",
+  "currency": "ETH",
+  "amount": 0.1,
+  "title": "Payment for services",
+  "memo": "Invoice #12345",
+  "description": "Payment for web development services"
+}
+
+### Get all payment links
+GET http://localhost:3000/api/payments
+
+### Get a specific payment link (replace LINK_ID with an actual link ID)
+GET http://localhost:3000/api/payments/LINK_ID
+
+### Update a payment link (replace LINK_ID with an actual link ID)
+PUT http://localhost:3000/api/payments/LINK_ID
+Content-Type: application/json
+
+{
+  "amount": 0.2,
+  "memo": "Updated invoice #12345"
+}
+
+### Delete a payment link (replace LINK_ID with an actual link ID)
+DELETE http://localhost:3000/api/payments/LINK_ID 
