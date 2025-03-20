@@ -2,6 +2,12 @@
 
 Link2Pay is a full-stack application that allows users to create, share, and manage cryptocurrency payment links. It simplifies the process of receiving crypto payments by generating links with predefined parameters like wallet address, amount, and currency.
 
+## 📱 Demo Implementation
+
+This project is a practical implementation of a concept shared in a viral tweet about simplified cryptocurrency payments. The tweet highlighted the need for an easy way to create and share payment links for crypto transactions without complex wallet interactions.
+
+Link2Pay demonstrates how such an idea can be built into a functional product that addresses real user needs in the cryptocurrency space. While the original tweet proposed a simple concept, this implementation expands on it with additional features like multi-chain support, QR code generation, and wallet integration.
+
 ![Link2Pay Screenshot](https://via.placeholder.com/800x400?text=Link2Pay+Screenshot)
 
 ## Features
